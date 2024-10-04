@@ -1,0 +1,7 @@
+on:
+  workflow_runs:
+    workflow: ["Build"]
+    types: [requested]
+    branches:
+      - "realeases/**"
+      - "!canva/"
