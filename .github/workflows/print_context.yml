@@ -7,7 +7,7 @@ on:
 
 jobs:
   print_context:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Print GitHub Event Context
         env:
